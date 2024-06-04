@@ -1,18 +1,15 @@
-import React from "react"
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Header, Footer } from "./components"; // Import Footer component
 
-import AboutMe from "./pages/AboutMe"
-import PortfolioPage from "./pages/Portfolio"
-import ResumePage from "./pages/Resume"
+import AboutMe from "./pages/AboutMe";
+import PortfolioPage from "./pages/Portfolio";
+import ResumePage from "./pages/Resume";
+import ContactPage from "./pages/ContactPage"; // Assuming you have a ContactPage component
 
-import { Header } from "./components"
+import "/node_modules/bootstrap/dist/css/bootstrap.min.css";
 
-import "/node_modules/bootstrap/dist/css/bootstrap.min.css"
-import { ContactPage } from "./pages"
-import AboutMepage from "./pages/HomePage"
-
-export default function App(){
-
+export default function App() {
   return (
     <div className="viewport">
       <Header />
@@ -20,18 +17,15 @@ export default function App(){
       <div className="px-5">
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<AboutMepage />} />
+            <Route path="/" element={<AboutMe />} />
             <Route path="/portfolio" element={<PortfolioPage />} />
             <Route path="/resume" element={<ResumePage />} />
             <Route path="/contact" element={<ContactPage />} />
-            
           </Routes>
         </BrowserRouter>
       </div>
 
-      <footer>
-
-      </footer>
+      <Footer /> 
     </div>
-  )
+  );
 }
