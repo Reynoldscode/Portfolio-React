@@ -1,12 +1,15 @@
 import React from "react";
 import profileImage from "./reyimage.png";
 import "./About.css"
+
+
+
 export default function AboutMepage() {
 
   return (
     <div className="d-flex flex-column align-items-center">
 
-      <img src={profileImage} alt="Profile" className="profile-image" /> 
+      <img src={ profileImage } alt="Profile" className="profile-image" /> 
       <main className="w-75 px-5 text-center">
         <h1 className="rey">You Are Welcome!</h1>
         <p>I am Reynolds! For the past 7 years, I've been deeply immersed in the world of traditional graphic design, crafting visuals that communicate messages effectively. But my curiosity extends beyond static designs. I have always wondered about the magic behind websites and apps - how they are brought to life!</p>

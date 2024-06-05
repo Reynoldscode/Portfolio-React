@@ -6,7 +6,7 @@ import Header from "./component/header/Header"
 import AboutMe from "./component/pages/about/AboutPage";
 import PortfolioPage from "./component/pages/portfolio/Portfolio";
 import ResumePage from "./component/pages/resume/Resume";
-import ContactPage from "./component/pages/resume/Resume"; 
+import ContactPage from "./component/pages/contact/Contact"; 
 
 
 export default function App() {
