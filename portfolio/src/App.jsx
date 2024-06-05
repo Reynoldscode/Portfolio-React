@@ -6,9 +6,8 @@ import Header from "./component/header/Header"
 import AboutMe from "./component/pages/about/AboutPage";
 import PortfolioPage from "./component/pages/portfolio/Portfolio";
 import ResumePage from "./component/pages/resume/Resume";
-import ContactPage from "./component/pages/contact/Contact"; // Assuming you have a ContactPage component
+import ContactPage from "./component/pages/resume/Resume"; 
 
-// import "/node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 export default function App() {
   return (

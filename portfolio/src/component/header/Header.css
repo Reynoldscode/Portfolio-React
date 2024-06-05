@@ -1,0 +1,40 @@
+.header {
+  background-color: #193589;
+  border-bottom: 1px solid white;
+  height: 6rem;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+  color: white;
+}
+
+.header-title {
+  font-size: 2rem;
+  font-style: italic;
+  color: white;
+  margin: 0;
+}
+
+.header-nav {
+  display: flex;
+}
+
+.header-ul {
+  list-style-type: none;
+  color: white;
+  display: flex;
+  gap: 3rem; 
+}
+
+.header-link {
+  padding: 0 10px;
+  text-decoration: none;
+  color: white;
+}
+
+
+.header-nav {
+  margin-left: auto; 
+}
