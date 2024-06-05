@@ -1,6 +1,19 @@
 .profile-image {
+  display: flex;
+  margin-left: 40%;
   width: 200px; 
   height: 200px; 
   border-radius: 50%; 
+  border-width: 10px;
   margin-bottom: 20px; 
+}
+
+.rey{
+  display: flex;
+  margin-left: 38%;
+  color: rgb(43, 9, 76);
+}
+p{
+  display: flex;
+  padding: 10px;
 }
