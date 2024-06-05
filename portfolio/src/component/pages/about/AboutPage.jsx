@@ -1,6 +1,4 @@
-import { useState, useEffect } from "react"
-import dataset from "../lib/dataset.json"
-import BorderedBox from "../component/BorderedBox"
+
 
 export default function AboutMepage(){
 

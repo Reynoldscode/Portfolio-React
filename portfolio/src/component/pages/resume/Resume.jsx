@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export default function ResumePage() {
   const linkedInUrl = "www.linkedin.com/in/reynolds-addy";
 
