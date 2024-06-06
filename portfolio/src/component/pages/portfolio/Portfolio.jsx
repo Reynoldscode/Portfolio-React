@@ -1,9 +1,15 @@
 import React from 'react';
 import './Portfolio.css';
+import Header from "../../header/Header";
 import 'bootstrap/dist/css/bootstrap.min.css'; 
+import projectimg1 from "./images/p1.png"
+import projectimg2 from "./images/p2.png"
+import projectimg3 from "./images/p3.png"
+import projectimg4 from "./images/p4.png"
+import projectimg5 from "./images/p5.png"
+import projectimg6 from "./images/p6.png"
 
 export default function Portfolio() {
-
   
   const Card = ({ image, title, link }) => {
 
@@ -28,21 +34,22 @@ export default function Portfolio() {
 
   return (
     <div>
-      <p>Below are my recent projects, feel free to click the cards to link to the project</p>
+      <Header />
+      <p className='text22'>Below are my recent projects, feel free to click the cards to link to the project</p>
       
       <div className="card-container row">
-        <Card image="./p1.png" title="Creating A portfolio Website" link="https://reynoldscode.github.io/my_portfolio/" />
+        <Card image= {projectimg1} title="Creating A portfolio Website" link="https://reynoldscode.github.io/my_portfolio/" />
 
-        <Card image="./p2.png" title="Note Taker" link="https://note-taker-wezz.onrender.com/" />
+        <Card image= {projectimg2} title="Note Taker" link="https://note-taker-wezz.onrender.com/" />
 
 
-        <Card image="./p3.png" title="Personal Blog" link="https://reynoldscode.github.io/personal_blog/" />
+        <Card image= {projectimg3} title="Personal Blog" link="https://reynoldscode.github.io/personal_blog/" />
 
-        <Card image="./p4.png" title="A group Project Project" link="https://tywalter.github.io/brew-bound/" />
+        <Card image= {projectimg4} title="A group Project Project" link="https://tywalter.github.io/brew-bound/" />
 
-        <Card image="./p5.png" title="A social media website (group Project)" link="https://tektok.onrender.com/" />
+        <Card image= {projectimg5} title="A social media website (group Project)" link="https://tektok.onrender.com/" />
 
-        <Card image="./p6.png" title="PWA Editor Web App" link="https://rey-note-taker-01d57d47cbf6.herokuapp.com/" />
+        <Card image= {projectimg6} title="PWA Editor Web App" link="https://rey-note-taker-01d57d47cbf6.herokuapp.com/" />
       </div>
     </div>
   );

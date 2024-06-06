@@ -1,6 +1,7 @@
 .profile-image {
   display: flex;
-  margin-left: 40%;
+  margin-left: 3%;
+  margin-top: 100px;
   width: 200px; 
   height: 200px; 
   border-radius: 50%; 

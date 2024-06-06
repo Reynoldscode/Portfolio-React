@@ -1,15 +1,18 @@
-import React from "react";
-
+import Header from "../../header/Header";
+import "./Resume.css";
+import resumefiles from "../../../../public/Resume.pdf"
 
 export default function ResumePage() {
-  const linkedInUrl = "www.linkedin.com/in/reynolds-addy";
+
+  const resumefile = "/path/to/your/resume"; 
 
   return (
     <div>
-      <h1>Resume</h1>
-      <p>Your resume content goes here...</p>
-      <a href="www.linkedin.com/in/reynolds-addy" target="_blank" rel="linkdin">
-        View my LinkedIn profile
+      <Header />
+
+      <p className="text33">Download my resume below</p>
+      <a href={resumefiles} download target='_blank' rel='noreferrer'>
+        <button className="btn"> Download Resume </button>
       </a>
     </div>
   );
