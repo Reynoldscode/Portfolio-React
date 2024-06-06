@@ -33,19 +33,15 @@ THEN you see a link to a downloadable resume and a list of the developer’s pro
 WHEN you view the footer
 THEN you am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 
+![about](https://github.com/Reynoldscode/Portfolio-React/assets/41800514/405d8e3a-d85b-433d-97d7-3602eb006d2d)
+
+![contact](https://github.com/Reynoldscode/Portfolio-React/assets/41800514/82832eab-51d6-4660-99ce-f846d86b6b13)
+![project](https://github.com/Reynoldscode/Portfolio-React/assets/41800514/4a690e47-fc71-41e9-a485-604e73869811)
+![resume](https://github.com/Reynoldscode/Portfolio-React/assets/41800514/e9c25093-a5cb-49cd-8ece-1499df916730)
 
 
-![about page.](./portfolio/src/assets/images/about.png)
 
 
-![portfolio page.](./portfolio/src/assets/images/project.png)
-
-
-
-![resume page.](./portfolio/src/assets/images/resume.png)
-
-
-![contactpage](./portfolio/src/assets/images/contact.png)
 
 deploy url: https://rey2.netlify.app/
 
