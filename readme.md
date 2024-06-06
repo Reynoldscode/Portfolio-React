@@ -47,7 +47,7 @@ THEN you am presented with text or icon links to the developer’s GitHub and Li
 
 ![contactpage](./portfolio/src/assets/images/contact.png)
 
-
+deploy url: https://rey2.netlify.app/
 
 github URL: https://github.com/Reynoldscode/Portfolio-React
 
